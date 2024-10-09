@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/challenge.html">Challenge</a></li>
+                <li><a href="#">Recipe</a></li>
+                <li><a href="/form.html">Form</a></li>
+            </ul>
+        </nav>
+        
+        <header>
+            <h1>Reserve Your Room</h1>
+            <h2>Our reservation policies</h2>
+        </header>
+
+       <section class="policies">
+        <ul>
+            <li>Check-in time after 3:00pm on Saturday October 5th</li>
+            <li>Check-out time by 11:00am or charges are incurred</li>
+            <li>Breakfast and afternoon tea/snacks included in cost</li>
+            <li>Proof of Covid-19 Vaccination required. Upload image(s) below </li>
+            <li>50% deposit required at booking</li>
+            <li>Cancellations less than 72 hours ahead of check-in forfeit 50% of deposit</li>
+        </ul>
+       </section>
+
+       <section class="reserve">
+        <form method="post" name="reservation" data-netlify="true">
+
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstname" id="firstname" placeholder="first name" required>
+            </div>
+
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastname" id="lastname" placeholder="last name" required>
+            </div>
+
+            <div>
+                <label for="Email">Email:</label>
+                <input type="text" name="Email" id="Email" placeholder="email" required>
+            </div>
+
+            <div>
+                <label for="Phone">Phone:</label>
+                <input type="text" name="Phone" id="Phone" placeholder="phone" required>
+            </div>
+
+            
+
+            </form>
+       </section>
+
+    </div>
+</body>
+</html>
