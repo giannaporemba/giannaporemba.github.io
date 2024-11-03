@@ -1,6 +1,6 @@
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.5rem;
+    line-height: 1.5rem;
 }
 
 h1, h2, h3 {
@@ -10,18 +10,27 @@ h1, h2, h3 {
 
 
 h1 {
+    color: blue;
     font-size: 3rem;
     font-weight: normal;
-    letter-spacing: 1rem;
+    letter-spacing: .1rem;
     text-transform: capitalize;
 }
 
 
 h2 {
     font-size: 2rem;
-
+    text-decoration-line: underline;
 }
 
 h3 {
+    font-size: 1.5rem;
+}
 
+p {
+    font-size: 1.25rem;
+}
+
+nav a {
+    text-decoration-style: wavy;
 }
