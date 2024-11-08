@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="CSS/form-style.css">
 </head>
+
 <body>
     
     <div id="wrapper">
@@ -71,7 +73,7 @@
                 <label for="Number of guests">Number of guests</label>
                 <input type=number min="1" max="4" name="Number of guests" placeholder="Number of guests" required>
             </div>
-
+            
             <div>
                 <label for="Roomtype">Room Type</label>
                 <select name="roomType">Room Type id=roomType
@@ -81,12 +83,11 @@
                     <option value="king">One King Bed</option>
                  </select>   
             </div>
-
+            <br>
             <div>
                 <div>Ocean View (additional cost)</div>
                 <label for="view">Yes</label>
                 <input type="radio" name="view" id="yes" value="yes">
-
                 <label for="view">No</label>
                 <input type="radio" name="view" id="no" value="no">
             </div>
