@@ -218,7 +218,7 @@ footer ul {
 
 }
 
-@media (max-width: 810px) {
+@media (max-width: 810px) (min-width: 500px) {
 
     html {
         line-height: 135%;
@@ -261,5 +261,6 @@ footer ul {
     float: left;
     width: 90%;
     }
-    
+
+
 }
