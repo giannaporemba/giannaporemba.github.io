@@ -1,26 +1,39 @@
-html {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 1.5rem;
+:root {
+    --font-size: 1vw;
+    --color-red: #bd114c;
+    --color-yellow: #ffb03a;
+    --color-blue: #00008b;
+    --color-purple: #A020F0;
 }
 
-h1, h2, h3 {
-    color:#BB1B47;
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: calc(var(--font-size) + 14px);
+    font-size: calc(var(--font-size) + 14px);
+    line-height: 1.4;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--color-red);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+
 }
 
 
 h1 {
-    color: blue;
-    font-size: 3rem;
-    font-weight: normal;
-    letter-spacing: .1rem;
-    text-transform: capitalize;
+    font-size: calc(var(--font-size) * 6);
+    background-image: linear-gradient(100deg,var(--color-red), var(--color-blue));
+    background-clip: text;
+    color: transparent;
 }
 
 
 h2 {
-    font-size: 2rem;
-    text-decoration-line: underline;
+    font-size: calc(var(--font-size) + 32px)
 }
 
 h3 {
@@ -33,4 +46,25 @@ p {
 
 nav a {
     text-decoration-style: wavy;
+}
+
+nav ul:hover {
+    background-image: linear-gradient(180deg,var(--color-yellow), var(--color-red));
+    max-width: 15%;
+}
+
+section {
+    margin-left: 100px;
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
 }
